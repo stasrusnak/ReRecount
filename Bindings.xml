@@ -1,0 +1,28 @@
+<Bindings>
+	<Binding name="ReRecount_PREVIOUSPAGE" header="ReRecount">ReRecount:MainWindowPrevMode()</Binding>
+	<Binding name="ReRecount_NEXTPAGE">ReRecount:MainWindowNextMode()</Binding>
+	<Binding name="ReRecount_DAMAGE">ReRecount:SetMainWindowMode(1)</Binding>
+	<Binding name="ReRecount_DPS">ReRecount:SetMainWindowMode(2)</Binding>
+	<Binding name="ReRecount_FRIENDLYFIRE">ReRecount:SetMainWindowMode(3)</Binding>
+	<Binding name="ReRecount_DAMAGETAKEN">ReRecount:SetMainWindowMode(4)</Binding>
+	<Binding name="ReRecount_HEALING">ReRecount:SetMainWindowMode(5)</Binding>
+	<Binding name="ReRecount_HEALINGTAKEN">ReRecount:SetMainWindowMode(6)</Binding>
+	<Binding name="ReRecount_OVERHEALING">ReRecount:SetMainWindowMode(7)</Binding>
+	<Binding name="ReRecount_DEATHS">ReRecount:SetMainWindowMode(8)</Binding>
+	<Binding name="ReRecount_DOTS">ReRecount:SetMainWindowMode(9)</Binding>
+	<Binding name="ReRecount_HOTS">ReRecount:SetMainWindowMode(10)</Binding>
+	<Binding name="ReRecount_DISPELS">ReRecount:SetMainWindowMode(11)</Binding>
+	<Binding name="ReRecount_DISPELLED">ReRecount:SetMainWindowMode(12)</Binding>
+	<Binding name="ReRecount_INTERRUPTS">ReRecount:SetMainWindowMode(13)</Binding>
+	<Binding name="ReRecount_CCBREAKER">ReRecount:SetMainWindowMode(14)</Binding>
+	<Binding name="ReRecount_ACTIVITY">ReRecount:SetMainWindowMode(15)</Binding>
+	<Binding name="ReRecount_MANA">ReRecount:SetMainWindowMode(17)</Binding>
+	<Binding name="ReRecount_ENERGY">ReRecount:SetMainWindowMode(18)</Binding>
+	<Binding name="ReRecount_RAGE">ReRecount:SetMainWindowMode(19)</Binding>
+	<Binding name="ReRecount_REPORT_MAIN">ReRecount:ShowReport("Main",ReRecount.ReportData)</Binding>
+	<Binding name="ReRecount_REPORT_DETAILS">ReRecount:ShowReport("Detail",ReRecount.ReportDetail)</Binding>
+	<Binding name="ReRecount_RESET_DATA">ReRecount:ShowReset()</Binding>
+	<Binding name="ReRecount_SHOW_MAIN">ReRecount.MainWindow:Show();ReRecount:RefreshMainWindow()</Binding>
+	<Binding name="ReRecount_HIDE_MAIN">ReRecount.MainWindow:Hide()</Binding>
+	<Binding name="ReRecount_TOGGLE_MAIN">if ReRecount.MainWindow:IsShown() then ReRecount.MainWindow:Hide() else ReRecount.MainWindow:Show();ReRecount:RefreshMainWindow() end</Binding>
+</Bindings>

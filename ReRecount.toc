@@ -1,0 +1,50 @@
+﻿## Interface: 20400
+## Title: ReRecount
+## Notes: Records Damage and Healing for Graph Based Display
+## Notes-ruRU: Записывает урон и исцеления и отоброжает различные графики
+## Notes-zhCN: 基于 Graph 裤开发的伤害/治疗统计插件
+## Notes-zhTW: 圖形化顯示的傷害/治療統計插件
+## Author: Cryect, ported to 2.4 by Elsia
+## OptionalDeps:  Ace3, LibSharedMedia-3.0, LibBabble-Class-3.0, LibGraph-2.0
+## SavedVariables: ReRecountDB
+## SavedVariablesPerCharacter: ReRecountPerCharDB
+## X-Category: Combat
+## X-Embeds: Ace3, LibSharedMedia-3.0, LibBabble-Class-3.0, LibGraph-2.0
+
+embeds.xml
+
+locales\ReRecount-enUS.lua
+locales\ReRecount-ruRU.lua
+locales\ReRecount-frFR.lua
+locales\ReRecount-deDE.lua
+locales\ReRecount-koKR.lua
+locales\ReRecount-esES.lua
+locales\ReRecount-zhTW.lua
+locales\ReRecount-zhCN.lua
+
+ReRecount.lua
+
+Fonts.lua
+colors.lua
+Widgets.lua
+WindowOrder.lua
+
+Fights.lua
+pets.lua
+ReRecount_Modes.lua
+Tracker.lua
+healbuffs.lua
+roster.lua
+LazySync.lua
+deletion.lua
+zonefilters.lua
+debug.lua
+
+GUI_Main.lua
+GUI_Detail.lua
+GUI_DeathGraph.lua
+GUI_Graph.lua
+GUI_Reset.lua
+GUI_Report.lua
+GUI_Config.lua
+GUI_Realtime.lua
